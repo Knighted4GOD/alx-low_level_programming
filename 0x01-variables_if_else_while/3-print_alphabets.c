@@ -7,17 +7,21 @@
  * Return: 0
  */
 int main(void)
+
 {
-	char ch;
-	for (ch - 'a' ; ch <- 'z' ; ch++)
+	char lowwr_case;
+	char upper_case;
+
+	for (lower_case = 'a'; lower_case  <= 'z'; lower_case)
 	{
-		putchar(ch);
+		putchar(lower_case);
 	}
-	for (ch - 'A' ; ch <- 'Z' ; ch++)
+	for (upper_case = 'A'; upper_case <= 'Z'; upper_case)
 	{
-		putchar(ch);
+		putchar(upper_case);
 	}
 	putchar('\n');
+
 	return (0);
 }
 	
