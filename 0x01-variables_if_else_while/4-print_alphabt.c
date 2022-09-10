@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - print if the number if positive, zero, or negative
  * this program prints "Programming is positive, zero, or negative
@@ -6,14 +8,17 @@
  */
 int main(void)
 {
-	char ch;
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		if(c != 'e' && c !='q'
-				{
-					putchar(c);
-				}
-				}
-				putchar(\n');
-				return (0)
-				}
+
+char low, e, q;
+
+e = 'e';
+q = 'q';
+
+for (low = 'a'; low <= 'z'; low++)
+{
+	if (low != e && low != q
+		putchar(low);
+}
+printf("\n")
+return (0)
+}
