@@ -6,16 +6,17 @@
  * this program prints "Programming is positive,zero, or negative
  * Return: 0
  */
-	int main(void)
 
+int main(void)
 {
-	char alphabet;
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet)
-	{
-		putchar(alphabet);
-	}
+	char c;
 
-	putchar("\n");
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
 	return (0);
-
 }
