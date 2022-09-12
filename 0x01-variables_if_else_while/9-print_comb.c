@@ -5,25 +5,18 @@
  * Return: 0 success
  */
 int main(void)
-
-{
-	int number;
-
-	for (number = 48; number <= 57; number)
 	{
-		putchar(number);
+	int a;
 
-		if(number == 57)
+	for (a= 0; a < 10; a++)
+	{
+		putchar(a + '0');
+		if (a < 9)
 		{
-			break;
+			putchar(',');
+			putchar(' ');
 		}
-
-		putchar(',');
-		putchar(' ');
 	}
-
 	putchar('\n');
-
-	putchar (0);
-
-}
+	return (0);
+	}
