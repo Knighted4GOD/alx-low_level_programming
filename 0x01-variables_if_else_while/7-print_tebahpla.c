@@ -5,15 +5,15 @@
  *Return:Always 0 (success/correct)
  */
 int main(void)
-
 {
-	char alphabet;
+	char c;
 
-	for (alphabet = 122 ; alphabet >= 97; alphabet--)
-
-	{
-		putchar(alphabet);
-	}
+	c = 'z';
+	while
+		(c >= 'a') {
+			putchar(c);
+			e--;
+		}
 	putchar('\n');
-
 	return (0);
+}
