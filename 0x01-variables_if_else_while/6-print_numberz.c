@@ -6,16 +6,14 @@
 */
 int main(void)
 {
+	int c;
 
-int n;
-
-for (n ='0' n<='9'; n++
-{
-putchar(n):
-}
-
-putchar('\n');
-
-return (0);
-
+	c = 0;
+	while
+		(c < 10){
+			putchar(c + '0');
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }
