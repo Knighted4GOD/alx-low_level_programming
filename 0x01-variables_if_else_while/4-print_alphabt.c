@@ -7,19 +7,16 @@
  * Return: 0
  */
 int main(void)
-{ 
-
-char low, e, q;
-
-e = 'e';
-q = 'q';
-
-for (low = 'a'; low <= 'z'; low++)
 {
-	if (low != e && low != q);
-		putchar(low);
-}
-printf("\n");
+	char c;
 
-return (0);
+	c = 'a';
+	while
+		(c <= 'z') {
+			if (( c != 'q' && c != 'e') && c <= 'z')
+				putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }
