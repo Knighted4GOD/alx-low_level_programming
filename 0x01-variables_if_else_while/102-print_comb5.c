@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	ind d;
+	int d;
 
 	for (d = 0; d < 100; d++)
 	{
@@ -25,4 +25,3 @@ int main(void)
 
 	return (0);
 }
-
