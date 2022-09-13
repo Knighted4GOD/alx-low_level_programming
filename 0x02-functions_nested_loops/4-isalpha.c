@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- * _isalpha - code for checking alphabetical figures
- * @c: figures to be checked on
+ * _isalpha - function to check if c is a letter, lowercase or uppercase
+ * @c: is the int that will use for the arguument of the function
  *
- * Return: 0 or 1 base of terms
+ * Return: 0
  */
 int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && C >= 'Z'));
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && C <= 'Z'));
+	{
+	return (1);
+	}
+	else
+	return (0);
 }
