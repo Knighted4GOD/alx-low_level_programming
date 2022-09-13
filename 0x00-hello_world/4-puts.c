@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Return: must return 0 after pringting the function
+ * Return: Always 0
  */
 int main(void)
 
