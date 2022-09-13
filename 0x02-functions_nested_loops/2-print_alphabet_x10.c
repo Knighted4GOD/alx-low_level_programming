@@ -2,7 +2,7 @@
 /**
  * main - print: Text for 10 x alphabet
  *
- * Return:  Always
+ * Return: 0 Always
  */
 void print_alphabet_x10(void)
 {
