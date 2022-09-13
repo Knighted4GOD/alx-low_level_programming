@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main  10 x alphabet
+ * main - print: Text for 10 x alphabet
  *
  * Return:  Always
  */
