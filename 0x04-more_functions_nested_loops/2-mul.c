@@ -2,7 +2,8 @@
 
 /**mul - checks multiplies two numbers
  *@c: First number
- *@c: Second Number
+ *@b: Second Number
+ *
  *Return: outcome
  */
 
@@ -10,4 +11,3 @@ int mul(int a, int b)
 {
 	return (a * b);
 }
-
