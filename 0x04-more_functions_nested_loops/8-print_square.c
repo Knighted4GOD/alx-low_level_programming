@@ -23,8 +23,9 @@ putchar('0');
 putchar('#');
 putchar('\n');
 }
-{
+}
 else
 {
 putchar('\n');
+}
 }
