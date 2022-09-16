@@ -25,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-	printf("%d", n);
+	printf("%d", i);
 	}
 	if (i == 100)
 	{
@@ -36,5 +36,4 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
 
