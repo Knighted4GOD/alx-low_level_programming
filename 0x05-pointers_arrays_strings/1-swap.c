@@ -2,8 +2,8 @@
 
 /**
 *swap_int - swap two integer numbers
-*@n: first number
-*@n: second number
+*@a: first number
+*@b: second number
 *
 *Return: Always 0.
 */
