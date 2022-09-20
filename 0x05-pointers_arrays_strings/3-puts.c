@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 
-/**_puts - function that prints a string
-* @strL sring to print
+/**
+* _puts - function that prints a string
+* @str: sring to print
 *
 * Description: prints a string
 * On success: return no error
