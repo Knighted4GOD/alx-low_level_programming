@@ -18,3 +18,29 @@ char *rot13(char *)
 	}
 	return (str);
 }
+
+/**
+ * transform_2 - help function to map a letter with it's rot13 encoding
+ * @x: char to be encoded
+ *
+ * Return: the concoded char
+ */
+
+char transfom_2(char X)
+{
+	char one[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char two[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int i = 0;
+	char replacement = x;
+
+	while (i < 52)
+	{	
+		if (x == one[i])
+		{
+			replacement = two[i];
+			break;
+		}
+		i++;
+	}
+	return (replacement);
+}
