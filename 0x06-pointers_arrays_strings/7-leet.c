@@ -33,14 +33,14 @@ char tranform(char x)
 	int i = 0;
 	char replacement = x;
 
-		while (i < 8)
+	while (i < 8)
+	{
+		if (x == mapping_low[i] || x == mapping_upper[i])
 		{
-			if (x == mapping_low[i] || x == mapping_upper[i])
-			{
-				replacement = i + '0';
-				break;
-			}
-			i++
+			replacement = i + '0';
+			break;
 		}
-		return (replacement);
+		i++
+	}
+	return (replacement);
 }
