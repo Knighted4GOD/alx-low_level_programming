@@ -13,7 +13,7 @@ char *rot13(char *)
 
 	while (str[i] != '\0')
 	{
-		str[i] = transfor_2(str[i]);
+		str[i] = transform_2(str[i]);
 		i++;
 	}
 	return (str);
