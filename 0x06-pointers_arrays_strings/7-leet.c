@@ -10,6 +10,7 @@
 char *leet(char *str)
 {
 	int i = 0;
+	int transform;
 
 	while (str[i] != '\0')
 	{
