@@ -4,7 +4,7 @@
 * rot13 - rot13 encoder
 * @str: string to be encoded
 *
-* Return: address of the string being coding
+* Return: address of the coding string
 */
 
 char *rot13(char *)
@@ -13,7 +13,7 @@ char *rot13(char *)
 
 	while (str[i] != '\0')
 	{
-		str[i] = transform_2(str[i]);
+		str[i] = transform(str[i]);
 		i++;
 	}
 	return (str);
