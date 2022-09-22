@@ -13,7 +13,7 @@ void print_buffer(char *b, int size)
 
 	for (i =0; n1[i]; i++)
 		;
-	for (j = 0; n2[j]; j++;
+	for (j = 0; n2[j]; j++)
 		;
 	if (i > size_r || j > size_r)
 		return (0);
