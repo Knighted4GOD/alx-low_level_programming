@@ -2,14 +2,14 @@
 
 /**
 * infinite_add - adds two nums
-* @n: first num
+* @n1: first num
 * @n2: second num
 * @r: buffer for result
 * @size_r: size buffer
 *
 * Return: Always 0.
 */
-void print_buffer(char *b, int size)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, j, k, l, m, n;
 
