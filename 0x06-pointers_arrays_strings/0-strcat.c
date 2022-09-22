@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_strcat - concatenates 
+*_strcat - concatenates
 *the result of the string by dest
 *@dest: string will be appended
 *@src: string will be concatenate
