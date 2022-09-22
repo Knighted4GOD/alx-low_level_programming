@@ -52,7 +52,7 @@ void print_buffer(char *b, int size)
 		}
 		else
 		{
-			printf_line(b, size % 10 - 1, i);
+			print_line(b, size % 10 - 1, i);
 		}
 		putchar('\n');
 	}
