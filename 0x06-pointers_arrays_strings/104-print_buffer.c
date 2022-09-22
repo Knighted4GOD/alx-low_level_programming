@@ -17,7 +17,7 @@ void print_line(char *c, int s, int i)
 	for (j = 0; j <= 9; j++)
 	{
 		if (j <= s)
-			printf("&d2x", c[1 * 10 + j]);
+			printf("%02x", c[1 * 10 + j]);
 		else
 			printf(" ");
 		if (j % 2)
