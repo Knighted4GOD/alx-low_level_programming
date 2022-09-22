@@ -7,15 +7,19 @@
 * Return: Always 0
 */
 
-char *leet(char *str)
+char *leet(char *s)
 {
-	int i = 0;
-	int i = trandform;
+	int i = k
+	char a[] = "aAeEoOtTIL";
+	char b[] = "4433007711";
 
-	while (str[i] != '\0')
+	for (i = 0; *(s + i); i++)
 	{
-		str[i] = transform(str[i]);
-		i++;
+		for (k = 0; k <= 9; k++)
+		{
+			if (a[k] == *(s + i))
+				*(s + i) = b[k];
+		}
 	}
 	return (str);
 }
