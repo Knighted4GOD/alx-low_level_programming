@@ -10,7 +10,7 @@
 * Return: Always 0
 */
 
-void print_line(char *c, int s, int i)
+void print_line(char *c, int s, int l)
 {
 	int j, k;
 
