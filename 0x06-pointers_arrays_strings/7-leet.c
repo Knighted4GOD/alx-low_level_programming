@@ -21,7 +21,7 @@ char *leet(char *s)
 				*(s + i) = b[k];
 		}
 	}
-	return (str);
+	return (s);
 }
 
 /**
