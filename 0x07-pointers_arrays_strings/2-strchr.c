@@ -10,8 +10,8 @@
  */
 char *_strchr(char *s, char c)
 {
-	if (s == NUL)
-		return (null);
+	if (s == NULL)
+		return (NULL);
 	for (; *s; s++)
 	{
 		if (*s == c)
@@ -21,5 +21,5 @@ char *_strchr(char *s, char c)
 	{
 		return (s);
 	}
-	retun (NULL);
+	return (NULL);
 }
