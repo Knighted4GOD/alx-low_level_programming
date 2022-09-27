@@ -2,7 +2,7 @@
 
 /**
 
- * _strpbrk - located the first occurence in S if any bytes in accept
+* _strpbrk - located the first occurence in S if any bytes in accept
 * @s: the string we look for occurrences in
 * @accept: the print we compare against
 *
@@ -23,3 +23,4 @@ char *_strpbrk(char *s, char *accept)
 		}
 	}
 	return (0);
+}
