@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_memset -  function that fills memory with a constant byte.
+*_memset - function that fills memory with a constant byte.
 * @s: to memory block
 * @b: chat to be used
 * @n: num of bytes that will be used
