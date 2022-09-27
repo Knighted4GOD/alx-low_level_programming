@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
-*_memset - function that fills memory with a constant byte.
-* @s: to memory block
-* @b: chat to be used
-* @n: num of bytes that will be used
-*
-*Return; Always 0
-*/
+ * _memset - function that fills memory with a constant byte
+ * @s: address to the memory block
+ * @b: char to be used
+ * @n: number of bytes to be used
+ *
+ * Return: Nothing.
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
-	{	
+	{
 		s[n - 1] = b;
 		n--;
 	}
 	return (s);
 }
+
