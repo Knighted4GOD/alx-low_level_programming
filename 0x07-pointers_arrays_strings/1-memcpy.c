@@ -2,8 +2,8 @@
 
 /**
 * _memcpy - functin to copy a memory area
-* @dest: memory area
-* @src: memory from
+* @dest: memory area to
+* @src: memory area from
 * @n: num of bytes to be copied
 *
 * Return; Always 0
