@@ -2,7 +2,7 @@
 
 /**
 * _pow_recursion - function that returns the value of x raised to the power of y
-* @x: num to be uusd
+* @x: num to be used
 * @y: the power
 * Return: 0
 */
