@@ -3,7 +3,7 @@
 
 /**
  * main - prints coins to make change for an amount of money.
- * @argc: Argument length
+ * @args: Argument length
  * @argv: num of Argument
  *
  * Rerurn: 0
