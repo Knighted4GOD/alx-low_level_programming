@@ -5,7 +5,7 @@
  * main - function that print the name of the program
  * @argc: Argument Count
  * @argv: Argument Value
- * 
+ *
  * Return: 0
  */
 
