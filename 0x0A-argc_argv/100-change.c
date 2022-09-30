@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
 			c -= 1;
 		else
 			break;
+		coins += 1;
 	}
 	printf("%d\n", coins);
 	return (0);
