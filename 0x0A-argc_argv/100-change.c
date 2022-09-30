@@ -9,11 +9,11 @@
  * Rerurn: 0
  */
 
-int main(int argc, char *argv[])
+int main(int args, char *argv[])
 {
 	int c, coins = 0;
 
-	if (argc != 2)
+	if (args != 2)
 	{
 		printf("Error\n");
 		return (1);
