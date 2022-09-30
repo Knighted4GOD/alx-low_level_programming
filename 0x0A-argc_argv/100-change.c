@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	for (; c >= 0;)
-	{	
+	{
 		if (c >= 25)
 			c -= 25;
 	
@@ -37,11 +37,10 @@ int main(int argc, char *argv[])
 
 		else if (c >= 2)
 			c -= 2;
-
 		
 		else if (c >= 1)
 			c -= 1;
-		else 
+		else
 			break;
 	}
 	printf("%d\n", coins);
