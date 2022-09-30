@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints coins to make change for an amount of money.
+ * main - prints coins that left to make change for an amount of money.
  * @args: Argument length
  * @argv: num of Argument
  *
