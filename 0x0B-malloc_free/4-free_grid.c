@@ -1,8 +1,8 @@
 #include "main.h"
-#inlcude <stdlib.h>
+#include <stdlib.h>
 
 /**
-* free_grid -unction that frees a 2 dimensional grid previously
+* free_grid - function that fress grid in alloc_grid
 * @grid: pointer to pointer
 * @height: height of grid
 * Return: 0
