@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* free_grid - function that fress grid in alloc_grid
+* free_grid - function that fress 2D grid in alloc_grid
 * @grid: pointer to pointer
 * @height: height of grid
 * Return: 0
@@ -16,5 +16,5 @@ void free_grid(int **grid, int height)
 	{
 		free(grid[i]);
 	}
-	free(grid);
+	free(grid)
 }
