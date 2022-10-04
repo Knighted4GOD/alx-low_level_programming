@@ -49,6 +49,7 @@ int num_words(char *str)
 	}
 	return (words);
 }
+
 /**
 strtow - function that splits a string into words.
 *@str: string that will be splited
