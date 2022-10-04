@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- *
  * str_concat - function that concatenates
  * *@s1: 1st string
  * *@s2: 2nd string
@@ -12,7 +11,6 @@
  */
 
 char *str_concat(char *s1, char *s2)
-
 {
 	char *concat_str;
 	int index, concat_index = 0, len = 0;
