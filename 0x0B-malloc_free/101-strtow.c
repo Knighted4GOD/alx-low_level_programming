@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
 * len - function to return length of str
@@ -7,7 +8,7 @@
 * Return: length of the string
 */
 
-char **strtow(char *str)
+int len(char *str)
 {
 	int len = 0;
 
@@ -20,12 +21,12 @@ char **strtow(char *str)
 }
 
 /**
-* num_words - function that splits a string into words.
+* num_words - function to count num of words in str
 *@str: string that will be used
 *
 *Return: num of words
 */
-int bum_words(char *str)
+int num_words(char *str)
 {
 	int i = 0; words = 0;
 
