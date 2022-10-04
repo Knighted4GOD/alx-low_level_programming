@@ -4,10 +4,10 @@
 
 /**
  * create_array - function that creates an array of chars.
- *@s: array size
- *@c: character to be used
+ *@size: array size
+ *@c: char to assign
  *
- * Return: pointer to array or NULL if it deniel
+ * Return: pointer to array or NULL if it denial
  */
 
 char *create_array(unsigned int size, char c)
