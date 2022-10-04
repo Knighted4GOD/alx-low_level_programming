@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
 *len - returns length of str
@@ -32,7 +33,7 @@ char *argstostr(int ac, char **av)
 	int k = 0, i = ac, j, sum = 0, temp = 0;
 
 	if (ac == 0 || av == NULL)
-		RETURN (NULL);
+		return (NULL);
 
 	while (ac--)
 		sum += (len(av[ac]) + 1);
