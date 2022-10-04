@@ -18,8 +18,9 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
-		S2 = "";
+		s2 = "";
 
 	if (index = 0; s1[index] || s2[index]; index++)
 		len++;
