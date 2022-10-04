@@ -3,8 +3,8 @@
 
 /**
 * free_grid - function that fress 2D grid in alloc_grid
-* @grid: pointer to pointer
-* @height: height of grid
+* @grid: memory to be freed
+* @height: height of array
 * Return: 0
 */
 
