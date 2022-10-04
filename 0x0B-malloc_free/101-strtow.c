@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
 * len - function to return length of str
@@ -65,7 +66,7 @@ char **strtow(char *str)
 	split = (char **)malloc(sizeof(char *) *(words + 1));
 	if (split != NULL)
 	{
-		for (i = 0; i <= len(str) && words; != '\0'))
+		for (i = 0; i <= len(str) && words; i++)
 		{
 			if ((str[i] != ' ') && (str[i] != '\0'))
 				size++;
@@ -81,6 +82,7 @@ char **strtow(char *str)
 					}
 					split[j][temp] = '\0';
 					size = temp = 0;
+					j++;
 				}
 				else
 				{
@@ -89,4 +91,11 @@ char **strtow(char *str)
 					free(split);
 					return (NULL);
 				}
-			
+			}
+		}
+		split[words] = NULL;
+		return (NULL);
+	}
+	else
+		return (NULL);
+}
