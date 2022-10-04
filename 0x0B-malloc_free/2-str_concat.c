@@ -1,6 +1,5 @@
 #include "main.h"
-
-
+#include <stddef.h>
 
 /**
  *
@@ -11,7 +10,7 @@
  *
  */
 
-har *str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 
 {
 	char *concat_str;
