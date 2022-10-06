@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdilib.h>
 
 /**
 *malloc_checked - prints a string
@@ -14,7 +15,8 @@ void *malloc_checked(unsigned int b)
 	if (p == NULL)
 
 	{
-		exit(96);
+		exit(98);
 	}
 
 	return (p);
+}
