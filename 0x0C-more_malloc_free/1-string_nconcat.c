@@ -3,9 +3,9 @@
 
 /**
 *string_concat - concat two strings
-* @s1: 1st sring
+* @s1: 1st string
 * @s2: 2nd string
-* @n: index
+* @n: max num of bytes 
 * Return: 0
 */
 
@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (index = 0; s1[index]; index++)
 		concat[len++] = s1[index];
-	
+
 	for (index = 0; s2[index] && index < n; index++)
 		concat[len++] = s2[index];
 
