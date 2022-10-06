@@ -5,7 +5,7 @@
 *string_concat - concat two strings
 * @s1: 1st string
 * @s2: 2nd string
-* @n: max num of bytes 
+* @n: max num of bytes
 * Return: 0
 */
 
