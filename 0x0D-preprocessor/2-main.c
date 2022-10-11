@@ -4,9 +4,9 @@
 /**
  *main - Prints the name of the file of the program
  *
- *Retrun: 0
+ * compiled from, followed by new line
+ *Retrun:Always 0
  */
-
 int main(void)
 {
 	printf("%s\n",__FILE__);
