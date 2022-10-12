@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * function that executes a function given as a parameter.
+ * array_iterator - function that executes a function given as a parameter.
  * @array: array on element.
  * @size: size of array.
- * @action: function 
+ * @action: function
  *
- * Return: 0
+ * Return: void.
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
