@@ -1,4 +1,4 @@
-#include <"function_pointers.h"
+#include "function_pointers.h"
 
 /**
  * int_index - function that searches for an integer.
@@ -6,7 +6,7 @@
  * @size: size of array
  * @cmp: function to be used to compare values
  *
- * Return: index of 1st element for which 
+ * Return: index of 1st element for which
  * the cmp function doen not return 0 else
  * return -1 if no element matches,
  */
