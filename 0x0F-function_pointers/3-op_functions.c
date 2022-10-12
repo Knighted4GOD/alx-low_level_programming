@@ -5,11 +5,11 @@
  *@a: integer
  *@b: integer
  *
- * Return: sun.
+ * Return: sum.
  */
 int op_add(int a, int b)
 {
-	return (a + );
+	return (a +);
 }
 
 /**
@@ -31,7 +31,7 @@ int op_sub(int a, int b)
  *
  * Return: product
  */
-int op_div(int a, int b)
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
