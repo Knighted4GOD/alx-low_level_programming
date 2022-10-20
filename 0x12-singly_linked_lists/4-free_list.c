@@ -2,7 +2,7 @@
 
 /**
  * free_list - frees a list
- * @hear: head of the linked list
+ * @head: head of the linked list
  *
  * Return: 0
  */
