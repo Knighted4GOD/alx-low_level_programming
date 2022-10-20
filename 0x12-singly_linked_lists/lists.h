@@ -2,7 +2,8 @@
 #define LIST_H
 
 #include <stdlib.h>
-
+#include <stdio.h>
+#include <string.h>
 /**
  * struct list_s - string linked list
  * @str: string - (malloc'ed string)
@@ -16,7 +17,7 @@ typedef struct list_s
 {
 	char *str;
 	unsigned int len;
-	struct list_s *nect;
+	struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
