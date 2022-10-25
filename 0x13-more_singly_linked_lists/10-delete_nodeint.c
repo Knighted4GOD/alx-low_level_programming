@@ -27,7 +27,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		if (copy->next == NULL)
 			return (-1);
 
-		fopy = copy->next;
+		copy = copy->next;
 	}
 
 	tmp = copy->next;
@@ -35,4 +35,3 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	free(tmp);
 	return (1);
 }
-
