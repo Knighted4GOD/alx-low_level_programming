@@ -3,7 +3,7 @@
 /**
  * binary_to_unit - converts a binary number
  * to unsigned int
- * @b: the binary.
+ * @b: binary.
  *
  * Return: unsigned int.
  */
