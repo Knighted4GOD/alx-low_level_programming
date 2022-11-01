@@ -4,7 +4,7 @@
 /**
  * read_texfile - Reads a text file and prints it to POSIX stdout
  * @filename: a pointer to the name of the file
- * @letters: the number of letter the 
+ * @letters: the number of letter the
  * function should read and print
  *
  * Return: if function fails or filename is NULL -0
@@ -26,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	r = read(o, buffer, letters);
 	w = write(STDOUT_FILENO, buffer, r);
 
-	if (o == -1 || r == -1 || w == -1 || w !- r)
+	if (o == -1 || r == -1 || w == -1 || w != r)
 	{
 		free(buffer);
 		return (0);
@@ -37,5 +37,3 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	return (w);
 }
-
-
