@@ -1,4 +1,4 @@
-ose_elf - Closes an ELF file.*
+/*
  * File: 100-elf_header.c
  * Auth: Brennan D Baraban
  */
