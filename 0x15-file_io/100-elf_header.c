@@ -84,7 +84,7 @@ void print_class(unsigned char *e_ident)
 		case ELFCLASS32:
 			printf("ELF32\n");
 			break;
-		case ELFCLASS64
+		case ELFCLASS64:
 			printf("ELF64\n");
 			break;
 		default:
@@ -99,7 +99,7 @@ void print_class(unsigned char *e_ident)
 void print_data(unsigned char *e_ident)
 {
 	printf("  Data:                              ");
-	
+
 	switch (e_ident[EI_DATA])
 	{
 	case ELFDATANONE:
